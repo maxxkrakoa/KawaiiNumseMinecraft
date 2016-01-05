@@ -1,0 +1,5 @@
+{
+  "numsedeath": {"category": "master","sounds": [{"name": "numsedeath","stream": false}]},
+  "numsehit": {"category": "master","sounds": [{"name": "numsehit","stream": false}]},
+  "numseshoot": {"category": "master","sounds": [{"name": "numseshoot","stream": false}]}
+}

@@ -58,7 +58,7 @@ public class NumseMod {
         // 0).setResistance(10F).setBlockName("rainbowPowerTNT");
         rainbowBlock = (new rainbowBlock(Material.field_151580_n));
         LanguageRegistry.addName(rainbowBlock, "Rainbow block");
-        MinecraftForge.setBlockHarvestLevel(rainbowBlock, "pickaxe", 2);
+        rainbowBlock.setHarvestLevel("pickaxe", 2);
         GameRegistry.registerBlock(rainbowBlock, "rainbowBlock");
 
         rainbowBar = new Item().setUnlocalizedName("Rainbow bar").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabMaterials)
